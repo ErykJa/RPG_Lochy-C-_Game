@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501683668 source:e:\skrypty c++\code-block\rpg-lochy\main.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+
