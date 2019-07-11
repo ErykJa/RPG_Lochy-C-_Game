@@ -1244,12 +1244,12 @@ int ruchy()
             else Mapa[pion][poziom] = " " ;
 				
     system("cls");
-    cout<<FPosX<<FPosY<<endl;
-    cout<<SPosX<<SPosY<<endl;
-    cout<<BPosX<<BPosY<<endl;
-    cout<<EPosX<<EPosY<<endl;
-      
-    cout<<pion<<":"<<poziom<<endl;
+//    cout<<FPosX<<FPosY<<endl;
+//    cout<<SPosX<<SPosY<<endl;
+//    cout<<BPosX<<BPosY<<endl;
+//    cout<<EPosX<<EPosY<<endl;
+//      
+//    cout<<pion<<":"<<poziom<<endl;
     if(0<pion)
     {
     cout<<"Jesli chcesz isc do lewo wpisz 1."<<endl;
@@ -1392,7 +1392,7 @@ int main()
     system("cls");
     poczatek();
     CreatMap();
-    energy=50;
+    energy=5;
     while((h==0)&&(zycieh>0))
     {
         ruchy();
@@ -1429,7 +1429,7 @@ int main()
         pion=0;
         poziom=0;
         CreatMap();
-    	energy=50;
+    	energy=4;
         while((h==0)&&(zycieh>0))
     {
         ruchy();
@@ -1451,7 +1451,7 @@ int main()
         system("pause");
         bitwa();
         LvLup();
-    	energy=4;
+    	energy=3;
 
            }
        }
